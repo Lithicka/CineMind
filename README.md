@@ -2,8 +2,6 @@
 
 This repository contains CineMind, an AI-powered hybrid movie recommendation system that combines semantic retrieval (embeddings + vector index) with collaborative scoring.
 
-**Note:** the dataset's original README/license is included as `README.txt`. This `README.md` describes the project architecture, setup, and pipeline.
-
 **Architecture**
 - `create_embeddings.py`: builds document text and creates embeddings (Azure OpenAI) and uploads to Pinecone.
 - `semantic_search.py`: performs vector-based semantic search against the Pinecone index.
