@@ -1,0 +1,94 @@
+# .gitignore - ignore environment and sensitive files
+# Ignore environment variable files
+.env
+.env.*
+.env.local
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Editor / IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Secrets, credentials and keys
+*.pem
+*.key
+*.crt
+*.der
+*.p12
+*.pfx
+secrets.json
+credentials
+*.secret
+.netrc
+
+# Cloud provider credentials
+.aws/
+.aws/credentials
+.gcloud/
+azure/
+
+# SSH keys (avoid committing private keys)
+id_rsa
+id_rsa.pub
+ssh_key
+
+# Databases
+*.sqlite3
+*.db
+
+# Coverage and testing
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Build artifacts
+*.so
+
+# Optional: ignore dataset files and large blobs (uncomment if desired)
+# datasets and generated CSVs (do not commit large data files)
+*.csv
+movie_dataset/
+data/*.csv
+
+# Check scripts used for debugging and data checks
+check_*.py
+check_*.log
+
+# Machine learning artifacts
+*.ckpt
+*.pt
+*.pth
+
+# Pickle and serialized graphs
+*.pkl
+
+# Docker
+docker-compose.override.yml
+.env.docker
