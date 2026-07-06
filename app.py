@@ -2,7 +2,7 @@ import re
 import html
 import streamlit as st
 
-from recommender_service import recommend_movies
+from src.cinemind.recommender_service import recommend_movies
 
 st.set_page_config(
     page_title="CineMind",

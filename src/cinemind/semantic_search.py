@@ -1,4 +1,4 @@
-from create_embeddings import client, index, get_embeddings_batch
+from src.cinemind.embedding_client import client, index, get_embeddings_batch
 
 def semantic_search(query, top_k=10):
 

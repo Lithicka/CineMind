@@ -3,7 +3,7 @@ from pathlib import Path
 
 from openai import AzureOpenAI
 
-from hybrid_retrieval import hybrid_search
+from src.cinemind.hybrid_retrieval import hybrid_search
 
 
 # =====================================================

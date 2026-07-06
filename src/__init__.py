@@ -1,0 +1,1 @@
+"""CineMind source package namespace."""

@@ -1,5 +1,5 @@
-from hybrid_retrieval import hybrid_search
-from llm_explainer import explain_recommendations
+from src.cinemind.hybrid_retrieval import hybrid_search
+from src.cinemind.llm_explainer import explain_recommendations
 
 
 def recommend_movies(query: str):

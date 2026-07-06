@@ -1,11 +1,11 @@
 import os
 import pandas as pd
 
-from semantic_search import (
+from src.cinemind.semantic_search import (
     semantic_search
 )
 
-from collaborative_scoring import (
+from src.cinemind.collaborative_scoring import (
     collaborative_scores,
     normalize_scores
 )
